@@ -36,3 +36,12 @@ Follow the steps below to install Flutter on your system:
 # Test App
 
 You can test your Flutter installation by creating a sample app. Follow the instructions in the [official test drive guide](https://docs.flutter.dev/get-started/test-drive).
+
+If you get error 
+```
+[test_app] flutter create --template app --overwrite .
+Error: Unable to find git in your PATH. 
+exit code 1
+```
+
+Just run VSCode as administrator before creating test app.
